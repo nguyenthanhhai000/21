@@ -30,7 +30,7 @@ function LoginController($state, $localStorage, authService, messageShow, $timeo
         function onSuccess(res) {
             $localStorage.accessToken = res.token_type + " " + res.access_token;
             // $localStorage.refreshToken = res.refresh_token;
-            $state.go('index.control');
+            $state.go('index.home');
         }
         function onError(err) {
             messageShow.error(err.data && err.data.message || err || 'Something went wrong!');
