@@ -11,6 +11,14 @@
             </div>
             <div class="clearfix"></div>
         </li>
+        <li ng-class="{active: $state.includes('index.home')}">
+            <a ui-sref="index.home">
+                <i class="fa fa-home fa-fw">
+                    <div class="icon-bg bg-orange"></div>
+                    </i>
+                <span class="menu-title">Trang chủ</span>
+            </a>
+        </li>
         <li ng-class="{active: $state.includes('index.control')}">
             <a ui-sref="index.control">
                 <i class="fa fa-tachometer fa-fw">
