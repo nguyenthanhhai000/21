@@ -24,8 +24,8 @@
         vm.zone1Default = [
             {
                 type: "Cà chua",
-                highTemp: 25,
-                lowTemp: 15,
+                highTemp: 32,
+                lowTemp: 20,
                 highHud: 80,
                 lowHud: 70
             },
