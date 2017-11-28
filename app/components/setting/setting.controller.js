@@ -30,14 +30,14 @@
                 lowHud: 70
             },
             {
-                type: "Bó Xôi",
-                highTemp: 20,
+                type: "Ớt ngọt",
+                highTemp: 35,
                 lowTemp: 15,
                 highHud: 80,
                 lowHud: 70
             },
             {
-                type: "Cải Bắp",
+                type: "Dâu tây",
                 highTemp: 20,
                 lowTemp: 18,
                 highHud: 85,
