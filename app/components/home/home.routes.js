@@ -11,7 +11,7 @@
                 controller: 'HomeController',
                 controllerAs: 'vm',
                  ncyBreadcrumb: {
-                label: 'Trang chủ'
+                label: 'Giới thiệu'
             }
             });
     }
