@@ -23,23 +23,23 @@
         client2.onMessageArrived = onMessageArrived2;
         vm.zone1Default = [
             {
-                type: "Xà Lách",
-                highTemp: 25,
+                type: "Dưa chuột",
+                highTemp: 30,
                 lowTemp: 15,
                 highHud: 80,
-                lowHud: 70
+                lowHud: 50
             },
             {
-                type: "Bó Xôi",
-                highTemp: 20,
+                type: "Cà chua",
+                highTemp: 30,
+                lowTemp: 20,
+                highHud: 85,
+                lowHud: 60
+            },
+            {
+                type: "Dâu tây",
+                highTemp: 19,
                 lowTemp: 15,
-                highHud: 80,
-                lowHud: 70
-            },
-            {
-                type: "Cải Bắp",
-                highTemp: 20,
-                lowTemp: 18,
                 highHud: 85,
                 lowHud: 75
             }
