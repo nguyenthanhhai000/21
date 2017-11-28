@@ -23,7 +23,7 @@
         client2.onMessageArrived = onMessageArrived2;
         vm.zone1Default = [
             {
-                type: "Xà Lách",
+                type: "Cà chua",
                 highTemp: 25,
                 lowTemp: 15,
                 highHud: 80,
